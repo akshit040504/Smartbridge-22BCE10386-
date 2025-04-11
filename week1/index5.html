@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Webpage</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        p {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .styled-button {
+            padding: 10px 20px;
+            border: 2px solid #007BFF;
+            background-color: #007BFF;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .styled-button:hover {
+            background-color: white;
+            color: #007BFF;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        form {
+            margin: 20px auto;
+            width: 50%;
+        }
+        input {
+            padding: 8px;
+            margin: 5px;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Webpage</h1>
+    <p>This is the first paragraph of my webpage. It provides a brief introduction to the content that will be discussed.</p>
+    <p>This is the second paragraph, giving more details and engaging the reader with additional information.</p>
+    <div class="image-container">
+        <img src="image.jpg" alt="A descriptive caption for the image" width="300">
+        <p>A descriptive caption for the image</p>
+    </div>
+    <button class="styled-button">Click Me</button>
+    
+    <table>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+            <td>Row 1, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+            <td>Row 2, Cell 3</td>
+        </tr>
+    </table>
+    
+    <form>
+        <input type="text" placeholder="Enter your name">
+        <input type="email" placeholder="Enter your email">
+        <button class="styled-button" type="submit">Submit</button>
+    </form>
+</body>
+</html>
